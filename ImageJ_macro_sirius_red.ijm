@@ -1,6 +1,10 @@
-// PSR analysis macro - Eric Meinhardt
-// If used, please cite our paper: Wingert et al. 2024. DOI: 10.1016/j.bcp.2024.116305. Epub 2024 May 19. PMID: 38768763.
-// Input File Names may not contain blanks; only _ is allowed
+/*
+ * Title: Sirius red analysis in two channels
+ * Author: Eric Meinhardt
+ * Date: 2024-03-07
+ * License: MIT
+ * GitHub: https://github.com/Eric-Meinhardt/ImageJ_macro_sirius_red
+ */
 
 #@ File (label = "Input directory", style = "directory") input
 #@ File (label = "Output directory", style = "directory") output
