@@ -1,13 +1,11 @@
 # ImageJ_macro_sirius_red
-This is an ImageJ Macro which can be used to quantify the fibrotic area in heart sections stained with Picrosirius red and visualized using standard fluorescence microscopy in two separate channels, ~488 nm (FITC, representing the background flourescence and used to quantify the total tissue area) and ~605 (TexasRed/Rhodamine, for collagen deposition), as proposed by Vogel et al. 2015 (doi: 10.1016/j.mex.2015.02.007). Note that this is in contrast to standard protocols for Picrosirius red, which are most often visualizing the fibrotic tissue with either polarized light or bright field. 
+This is an ImageJ macro used to quantify the fibrotic area in heart sections stained with Picrosirius red and visualized using standard fluorescence microscopy in two separate channels, ~488 nm (FITC, representing the background flourescence and used to quantify the total tissue area) and ~605 (TexasRed/Rhodamine, for collagen deposition), as proposed by Vogel et al. 2015 (doi: 10.1016/j.mex.2015.02.007).
 
 ## Features
-- Batch processing of TIFF stacks
-- Background subtraction
-- Threshold-based measurements
+- Batch processing of TIFF stacks, followed by background subtraction and a threshold-based measurements
 
 ## Installation
-1. Download [ImageJ_macro_sirius_red](Eric-Meinhardt/ImageJ_macro_sirius_red.ijm)
+1. Download [ImageJ_macro_sirius_red](ImageJ_macro_sirius_red.ijm)
 2. Open in ImageJ via `Plugins > Macros > Install...`
 
 ## Usage
